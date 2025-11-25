@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>FABTECH — Live Price</title>
+    <style>
+      :root {
+        --bg: #0f1724;
+        --muted: #9aa4b2;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+      }
+      body {
+        background: linear-gradient(180deg, #071124 0%, #081725 100%);
+        color: #e6eef6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .card {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+      }
+      .symbol {
+        font-size: 28px;
+        opacity: 0.9;
+      }
+      .price {
+        font-size: 96px;
+        font-weight: 700;
+        letter-spacing: -2px;
+      }
+      .time {
+        font-size: 16px;
+        color: var(--muted);
+      }
+      .site a {
+        color: #9aa4b2;
+        font-size: 15px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="symbol">FABTECH (NSE)</div>
+      <div class="price">₹241</div>
+      <div class="time">Last updated: 11:00 AM · 25 Nov 2025</div>
+      <div class="site">
+        <a href="https://fabtechnologies.com" target="_blank"
+          >fabtechnologies.com</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
